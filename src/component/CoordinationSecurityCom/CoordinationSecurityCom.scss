@@ -1,0 +1,42 @@
+.csc_container{
+  position: relative;
+}
+.protectionCont{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-top: 62px;
+}
+.csc_chart{
+  position: relative;
+  width: 585px;
+  height: 700px;
+  transform: translateX(-20px);
+}
+*[class^='csc_area']{
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  .value{
+    font-family: 'lcd';
+    font-size: 24px;
+  }
+  div{
+    line-height: 30px;
+  }
+}
+.csc_area0{
+  top: 278px;
+}
+.csc_area1{
+  top: 264px;
+  left: 415px;
+}
+.csc_area2{
+  top: 520px;
+}
+.csc_area3{
+  top: 504px;
+  left: 415px;
+}

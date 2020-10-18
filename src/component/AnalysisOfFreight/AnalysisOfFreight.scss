@@ -1,0 +1,125 @@
+.AnalysisOfFreight{
+    width: 100%;
+    height: 100%;
+    .AnalysisOfFreightChartCon{
+        width: 100%;
+        height: calc(100% - 62px);
+        .contTop{
+            width: 100%;
+            height: 896px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .rankBarCont{
+                width: 425px;
+                height: 100%;
+                position: relative;
+                .PictorialBarCont{
+                    width: 100%;
+                    height: 500px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                }
+                .freightTotalCont{
+                    width: 100%;
+                    font-size: 26px;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    .num{
+                        font-family: lcd;
+                        color: #00fefa;
+                        font-size: 28px;
+                        padding: 0 10px;
+                    }
+                }
+            }
+            .mapChartCont{
+                width: 1980px;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .freightMap{
+                    width: 1883px;
+                    height: 886px;
+                    background: url("~img/frightMapBg.png") no-repeat;
+                    background-size: 1883px 886px;
+                }
+                #FreightWorldMap{
+                    width: 100%;
+                    height: 100%;
+                    transform: rotateX(-39deg) rotateZ(1deg);
+                }
+            }
+        }
+        .contBottom{
+            width: 100%;
+            height: 150px;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .showNumCont{
+                width: 200px;
+                height: 100%;
+                background-image:url(~img/percentBg.png);
+                background-repeat: no-repeat;
+                background-position: center center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 26px;
+                color: #fff;
+                .percent{
+                    font-size: 18px;
+                    height: 60px;
+                    .percentNum{
+                        color: #00C2F5;
+                        font-size: 50px;
+                        font-family: lcd;
+                    }
+                    .percentNum.international{
+                        color: #33ffc4;
+                    }
+                }
+            }
+            .barCont{
+                width:2000px;
+                height: 100%;
+                background-image:url(~img/percentBarBg.png);
+                background-repeat: no-repeat;
+                background-position: center center;
+                .barContMain{
+                    width: 1930px;
+                    height: 30px;
+                    // background-color: red;
+                    margin-top: 49px;
+                    border-radius: 30px;
+                    margin-left: 38px;
+                    background: url(~img/texture_bg.png);
+                    .barContLeft{
+                        height: 100%;
+                        background: linear-gradient(to right,rgba(0,194,245,.8),rgba(0,194,245,.2));
+                        float: left;
+                        border-top-left-radius: 30px;
+                        border-bottom-left-radius: 30px;
+                    }
+                    .barContRight{
+                        height: 100%;
+                        float: left;
+                        background: linear-gradient(to right,rgba(9,237,179,.2),rgba(9,237,179,.8));
+                        border-bottom-right-radius: 30px;
+                        border-top-right-radius: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

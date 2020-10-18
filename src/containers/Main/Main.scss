@@ -1,0 +1,21 @@
+/* 字体 */
+@font-face {
+  font-family: 'lcd';
+  src: url(~font/lcdFont.ttf);
+}
+
+body{
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  // overflow: hidden;
+}
+#main{
+  .Layer{
+    width: 3840px;
+    height: 2160px;
+    // width: 100%;
+    // height: 100%;
+  }
+}

@@ -1,0 +1,98 @@
+.MiddleCon {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(~img/center-bg.jpg);
+  background-size: 100% 100%;
+  .centerBorder {
+    position: absolute;
+    top: 220px;
+    left: 80px;
+    z-index: 10;
+  }
+  .title {
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    z-index: 10;
+    img {
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .mask {
+    position: absolute;
+    height: 2160px;
+    width: 3840px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+  .model {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    .topBg,.bottomBg,.leftBg,.rightBg{
+      z-index: 8;
+      position: absolute;
+      background-size: 100% 100%;
+    }
+    .topBg,.bottomBg{
+      width: 3440px;
+      height: 200px;
+      left:200px;
+      
+    }
+    .leftBg,.rightBg{
+      width: 200px;
+      height: 2160px;
+    }
+    .topBg{
+      top: 0px;
+      background:url(~img/model-top.png);
+    }
+    .bottomBg{
+      bottom: 0px;
+      background:url(~img/model-bottom.png);
+    }
+    .leftBg{
+      left: 0;
+      background:url(~img/model-left.png);
+    }
+    .rightBg{
+      right: 0px;
+      background: url(~img/model-right.png);
+
+    }
+
+    .iframeCont{
+      width: 3840px;
+      height: 2160px;
+      position: relative;
+      z-index: 5;
+      .iframeContItem{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        // opacity: 0;
+        z-index: 0;
+      }
+      .iframeContItem.active{
+        // opacity: 1;
+        z-index: 5;
+      }
+    }
+  }
+  .navigation {
+    width: 100%;
+    height: 136px;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+  }
+}

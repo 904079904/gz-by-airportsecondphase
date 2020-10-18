@@ -1,0 +1,30 @@
+.PiechartCom{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .chartDom{
+        width: 100%;
+        height: 100%;
+    }
+    .pieChartPlane{
+        position: absolute;
+        width: 230px;
+        height: 230px;
+        left: 43px;
+        top: 33px;
+        z-index: 10;
+    }
+    .pieChartCircle{
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        left: 38px;
+        top: 25px;
+        z-index: 10;
+        animation: myinside 3s infinite linear;
+    }
+    @keyframes myinside {
+        from {transform: rotate(0);}
+        to {transform: rotate(360deg);}
+    }
+}

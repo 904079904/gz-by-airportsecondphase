@@ -1,0 +1,74 @@
+.RunStatusPieChart{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .chartDom{
+        width: 100%;
+        height: 100%;
+    }
+    .boardingBridge,.ladderControl{
+        position: absolute;
+        width: 170px;
+        height: 183px;
+        left: 50%;
+        top: 50%;
+        margin-left: -85px;
+        margin-top: -91px;
+        z-index: 10;
+    }
+    .ladderControl{
+        width: 195px;
+        height: 182px;
+        margin-left: -97px;
+        margin-top: -91px;
+    }
+    .runStatusEarth{
+        position: absolute;
+        width: 285px;
+        height: 294px;
+        left: 50%;
+        top: 50%;
+        margin-left: -142px;
+        margin-top: -147px;
+        z-index: 9;
+    }
+    .runStatusCircle{
+        position: absolute;
+        width: 264px;
+        height: 265px;
+        left: 50%;
+        top: 50%;
+        margin-left: -132px;
+        margin-top: -132px;
+        z-index: 8;
+    }
+    .runStatusEarthCircle{
+        position: absolute;
+        width: 357px;
+        height: 357px;
+        left: 50%;
+        top: 50%;
+        margin-left: -178px;
+        margin-top: -178px;
+        z-index: 10;
+    }
+    .totalCount{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 38px;
+        color: #fff;
+        z-index: 20;
+        .number{
+            font-size: 80px;
+            font-family: lcd;
+            height: 90px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.LeaveFltMap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .LeaveFltMapTit {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 62px;
+    width: 300px;
+  }
+  .MapLeaveWorldChart {
+    width: 2336px;
+    height: 1100px;
+    background: url("~img/MapLeaveWorldChart.png") no-repeat;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+  #MapLeaveWorldChart {
+    width: 100%;
+    height: 100%;
+    transform: rotateX(-39deg) rotateZ(1deg);
+  }
+}

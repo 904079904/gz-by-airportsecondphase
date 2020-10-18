@@ -1,0 +1,27 @@
+/*
+* @Author: lvjn
+* @Date:   2018-03-26 16:06:28
+* @Last Modified by:   lvjn
+* @Last Modified time: 2018-03-26 16:17:23
+*/
+.on-duty-com {
+	// border: 1px solid green;
+	height: 50px;
+	position: absolute;
+	right: 5px;
+	top: 0;
+	width: 400px;
+	.on-duty-ul {
+		overflow: hidden;
+		width: 100%;
+		>li {
+			color: #fff;
+			float: left;
+			font-size: 13px;
+			height: 25px;
+			line-height: 25px;
+			text-align: center;
+			width: 50%;
+		}
+	}
+}

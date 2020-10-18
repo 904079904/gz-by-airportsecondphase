@@ -1,0 +1,24 @@
+.ToggleBtnCom{
+    display: flex;
+    width: 180px;
+    // height: 111px;
+    flex-direction: row;
+    justify-content: space-between;
+    .btn{
+        background: url(~img/toggleBtnBg.png) no-repeat;
+        // background-size: contain;
+        font-weight: bold;
+        font-size: 16px;
+        color: #00c2f5;
+        width: 82px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .btn.active{
+        color: #fff;
+        background: url(~img/toggleBtnActiveBg.png)  no-repeat;
+        background-size: contain;
+
+    }
+}

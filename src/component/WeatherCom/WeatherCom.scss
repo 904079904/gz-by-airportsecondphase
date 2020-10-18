@@ -1,0 +1,42 @@
+/*
+* @Author: lvjn
+* @Date:   2018-03-26 15:20:11
+* @Last Modified by:   lvjn
+* @Last Modified time: 2018-03-28 09:52:11
+*/
+.weather-com {
+	// border: 1px solid green;
+	height: 26px;
+	left: 0;
+	line-height: 26px;
+	padding-left: 10px;
+	position: absolute;
+	top: 24px;
+	white-space:nowrap;
+	width: 220px;
+	> span {
+		color: #fff;
+		display: inline-block;
+		font-size: 14px;
+		height: 26px;
+		line-height: 26px;
+		vertical-align: top;
+		&.weather-img {
+			height: 18px;
+			width: 18px;
+			margin-right: 5px;
+
+		}
+		&.weather-temp {
+			margin-right: 5px;
+			padding-top: 1px;
+		}
+		&.weather-decrip {
+			margin-right: 10px;
+			padding-top: 1px;
+		}
+		&.weather-wind {
+			padding-top: 1px;
+		}
+	}
+}

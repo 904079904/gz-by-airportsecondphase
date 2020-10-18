@@ -1,0 +1,83 @@
+/*
+* @Author: lvjn
+* @Date:   2018-03-26 13:57:18
+* @Last Modified by:   lvjn
+* @Last Modified time: 2018-04-03 15:15:20
+*/
+.title-con {
+	height: 50px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	// border: 1px solid red;
+	width: 1920px;
+	background: url(~img/title/title-bg.png) no-repeat;
+	background-size: 100% 100%;
+	.title-div {
+		height: 100px;
+		line-height: 90px;
+		padding-left: 30px;
+		position: absolute;
+		top: 100px;
+		width: 100%;
+		> input, > span {
+			display: inline-block;
+			&.title-input {
+				height: 30px;
+				line-height: 30px;
+				margin-right: 10px; 
+				width: 90%;
+			}
+			&.title-span {
+				background-color: #00ff00;
+				border-radius: 20px;
+				color: #fff;
+				cursor: pointer;
+				height: 30px;
+				letter-spacing: 3px;
+				line-height: 30px;
+				text-align: center;
+				width: 100px;
+			}
+		}
+	}
+	.style-div {
+		height: 100px;
+		line-height: 30px;
+		padding-left: 30px;
+		position: absolute;
+		top: 180px;
+		width: 100%;
+		> input {
+			display: inline-block;
+			height: 30px;
+			line-height: 30px;
+			margin-left: 10px;
+		}
+		> span {
+			display: inline-block;
+			height: 30px;
+			letter-spacing: 3px;
+			line-height: 30px;
+			text-align: right;
+			width: 100px;
+			&.title-span {
+				background-color: #00ff00;
+				border-radius: 20px;
+				color: #fff;
+				cursor: pointer;
+				height: 30px;
+				letter-spacing: 3px;
+				line-height: 30px;
+				margin-left: 20px;
+				text-align: center;
+				width: 100px;
+			}
+		}
+		> select {
+			height: 30px;
+			line-height: 30px;
+			width: 120px;
+		}
+	}
+}

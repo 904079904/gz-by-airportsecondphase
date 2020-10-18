@@ -1,0 +1,28 @@
+.RunwayHourlySortie{
+    width: 100%;
+    height: 100%;
+    .head{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-right: 100px;
+    }
+    .RunwayHourlySortieCont{
+        width: 100%;
+        height: calc(100% - 62px);
+        position: relative;
+        // padding-left: 10px;
+        .overviewTxt{
+            position: absolute;
+            top: 8px;
+            left: 22px;
+            color: #fff;
+            .speedTxt{
+                color: #F2BB12;
+                font-size: 22px;
+            }
+        }
+    }
+}

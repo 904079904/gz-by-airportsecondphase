@@ -1,0 +1,37 @@
+.ArriveAndLeavePsgClassifyCount {
+  width: 100%;
+  height: 100%;
+  .head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    .numberHeader {
+      display: flex;
+      flex-direction: row;
+      line-height: 65px;
+      justify-content: flex-start;
+      .totalNumber {
+        text-align: left;
+        padding-right: 5px;
+        font-size: 58px;
+        color: #f9b60b;
+        font-family: "lcd";
+        background-image: -webkit-gradient(
+          linear,
+          0 0,
+          0 bottom,
+          from(#f9b60b),
+          to(#f9ff45)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    .headBtn {
+      margin-right: 80px;
+      margin-top: 10px;
+    }
+  }
+}

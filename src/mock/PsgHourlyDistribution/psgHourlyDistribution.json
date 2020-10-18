@@ -1,0 +1,174 @@
+{
+    "code": 0,
+    "msg": "调用成功!",
+    "result": [
+        {
+            "outActual": 831,
+            "hour": "0",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 449,
+            "hour": "1",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 926,
+            "hour": "2",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 1068,
+            "hour": "3",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 499,
+            "hour": "4",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 487,
+            "hour": "5",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 3846,
+            "hour": "6",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 3874,
+            "hour": "7",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 1743,
+            "hour": "8",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 2443,
+            "hour": "9",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 2443,
+            "hour": "10",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 3334,
+            "hour": "11",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 1992,
+            "hour": "12",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 2617,
+            "hour": "13",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 577,
+            "hour": "14",
+            "outPlan": 0,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 0,
+            "hour": "15",
+            "outPlan": 821,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 0,
+            "hour": "16",
+            "outPlan": 1022,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 0,
+            "hour": "17",
+            "outPlan": 590,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 0,
+            "hour": "18",
+            "outPlan": 700,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 0,
+            "hour": "19",
+            "outPlan": 554,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 0,
+            "hour": "20",
+            "outPlan": 534,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 0,
+            "hour": "21",
+            "outPlan": 414,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 0,
+            "hour": "22",
+            "outPlan": 406,
+            "enterPlan": 0,
+            "enterActual": 0
+        },
+        {
+            "outActual": 0,
+            "hour": "23",
+            "outPlan": 146,
+            "enterPlan": 0,
+            "enterActual": 0
+        }
+    ]
+}

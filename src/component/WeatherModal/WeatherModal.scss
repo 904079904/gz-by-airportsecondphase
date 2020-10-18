@@ -1,0 +1,69 @@
+.fadeOut{
+  animation: fadeOutAnimate 1s 1 linear;
+}
+@keyframes fadeOutAnimate {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+.fadeIn{
+  animation: fadeInAnimate 1s 1 linear;
+}
+@keyframes fadeInAnimate {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+.WeatherModal{
+    width: 374px;
+    height: 404px;
+    background: url(~img/weatherModalBg.png);
+    padding:80px 60px 80px 80px;
+    transform: scaleX(1.2) scaleY(1.2);
+    .weatherModalClose{
+      position: absolute;
+      width: 21px;
+      height: 21px;
+      right: 60px;
+      top: 60px;
+      cursor: pointer;
+    }
+    .modalCont{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+      text-align: left;
+      .modalContItem{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: #f9b60b;
+        line-height: 31px;
+        .itemCont{
+          flex: 1;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+        }
+        .airportName{
+          width: 119px;
+          height: 31px;
+          background: url(~img/weatherModalBtn.png);
+          text-align: center;
+          padding: 0 20px;
+          color: #00ffff;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+        }
+        .itemTit{
+          width: 90px;
+          color: #fff;
+        }
+      }
+    }
+  }

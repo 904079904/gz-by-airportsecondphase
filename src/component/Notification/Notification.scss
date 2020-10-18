@@ -1,0 +1,204 @@
+.Notification {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 40px;
+  .titleWrapper {
+    height: 70px;
+    widows: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .list {
+    flex: 1;
+    overflow: hidden;
+    padding: 20px 20px;
+    margin-left: 35px;
+    .notiItem {
+      width: 1103px;
+      height: 225px;
+      // margin-bottom: 30px;
+      background: url(~img/info-bg.png);
+      display: flex;
+      // &:last-child {
+      //   margin-bottom: 0;
+      // }
+      .notiLeft {
+        width: 575px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        .time {
+          font-family: lcd;
+          color: #6f9dbc;
+          font-size: 24px;
+        }
+        .number {
+          display: inline-block;
+          font-size: 58px;
+          height: 87px;
+          line-height: 87px;
+          color: #fbe326;
+          font-family: lcd;
+          margin-top: 12px;
+        }
+        .detail {
+          color: #fff;
+          font-size: 24px;
+          font-weight: bold;
+          position: relative;
+          top: -10px;
+          .airNum {
+            color: #fbe326;
+            font-family: lcd;
+            font-size: 36px;
+            letter-spacing: 3px;
+          }
+        }
+      }
+      .notiRight {
+        flex: 1;
+        display: flex;
+        .arriveWrapper {
+          margin-right: 20px;
+        }
+        .arriveWrapper,
+        .leaveWrapper {
+          width: 237px;
+          height: 100%;
+          padding-top: 35px;
+          display: flex;
+          .imgBox {
+            display: flex;
+            flex-direction: column;
+            width: 86px;
+            text-align: center;
+            .imgWrapper {
+              width: 100%;
+              height: 91px;
+              position: relative;
+              img {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
+            .imgText {
+              margin-top: 24px;
+              color: #fff;
+              font-size: 24px;
+            }
+          }
+          .textWrapper {
+            display: flex;
+            flex-direction: column;
+            margin-left: 12px;
+            .port {
+              display: inline-block;
+              font-family: lcd;
+              font-size: 48px;
+              height: 72px;
+              line-height: 72px;
+              color: #fbe326;
+            }
+            .text {
+              font-size: 24px;
+              color: #fff;
+              font-weight: bold;
+            }
+            .date {
+              font-family: lcd;
+              font-size: 24px;
+              color: #6f9dbc;
+              margin-top: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.Notification .list {
+  position: relative;
+  .notiItem {
+    position: absolute;
+    top: 20;
+    left: -1103px;
+    
+    &.noAnimation {
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+@keyframes enter {
+  10% {
+    transform: translate(1123px, 0px);
+  }
+  20% {
+    transform: translate(1123px, 150px);
+  }
+  30% {
+    transform: translate(1123px, 225px);
+  }
+  40% {
+    transform: translate(1123px, 300px);
+  }
+  50% {
+    transform: translate(1123px, 375px);
+  }
+  60% {
+    transform: translate(1123px, 450px);
+  }
+  70% {
+    transform:translate(1123px, 525px);
+  }
+  80% {
+    transform: translate(1123px, 600px);
+  }
+  90% {
+    transform: translate(1123px, 675px);
+  }
+  100% {
+    transform: translate(1123px, 750px);
+  }
+}
+
+@keyframes enter1 {
+  to {
+    transform: translate(1123px, 0px);
+  }
+}
+
+@keyframes enter2 {
+  from {
+    transform: translate(1123px, 0px);
+  }
+  to {
+    transform: translate(1123px, 249px);
+  }
+}
+
+@keyframes enter3 {
+  from {
+    transform: translate(1123px, 249px);
+  }
+  to {
+    transform: translate(1123px, 498px);
+  }
+}
+
+@keyframes enter4 {
+  from {
+    transform: translate(1123px, 498px);
+  }
+  to {
+    transform: translate(1123px, 750px);
+  }
+}

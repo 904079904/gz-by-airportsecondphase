@@ -1,0 +1,13 @@
+.FreePlanPosition {
+    transform: translateX(50px);
+    .tit {
+        width: 100%;
+        height: 70px;
+        color: #ffffff;
+    }
+    // margin-left: 50px;
+    .FreePlanPositionCont{
+        padding-left: 40px;
+        // width: calc(100% - 50px);
+    }
+}

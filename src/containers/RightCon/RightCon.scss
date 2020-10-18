@@ -1,0 +1,196 @@
+.RightCon {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding-bottom: 115px;
+  position: relative;
+  background: url(~img/right-bg.jpg);
+  background-size: 100% 100%;
+  .rightBorder {
+    position: absolute;
+    top: 220px;
+    right: 10px;
+    z-index: 1;
+  }
+  .comBorder {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+  }
+  .title {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 60px;
+    position: relative;
+    img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      margin-left: 70px;
+    }
+    img.leftTitImg{
+      margin-left: 40px;
+    }
+  }
+  .flyCon {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    .left {
+      height: 100%;
+      width: 2475px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 10;
+      .chartWrapper {
+        height: 575px;
+        display: flex;
+        .lineChart {
+          width: 50%;
+          height: 100%;
+        }
+      }
+      .map {
+        flex: 1;
+      }
+    }
+    .right {
+      height: 100%;
+      width: 1300px;
+      overflow: hidden;
+      margin-left: 65px;
+      padding-right: 135px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 10;
+      .bridge {
+        height: 300px;
+      }
+      .chartWrapper {
+        height: 575px;
+        width: 100%;
+        display: flex;
+        .barChart {
+          width: 50%;
+        }
+      }
+      .info {
+        height: 878px;
+      }
+    }
+  }
+  .terminalCon {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    .baggage {
+      height: 100%;
+      width: 2450px;
+      margin-left: 68px;
+      display: inline-block;
+      overflow: hidden;
+      .baggagePie {
+        display: inline-block;
+        width: 1180px;
+        height: 525px;
+        margin-right: 60px;
+        margin-bottom: 35px;
+        overflow: hidden;
+      }
+      .baggageBar {
+        display: inline-block;
+        width: 1210px;
+        height: 525px;
+        margin-bottom: 35px;
+        overflow: hidden;
+      }
+      .baggageCheck {
+        width: 2450px;
+        height: 1193px;
+        overflow: hidden;
+      }
+    }
+    .monitor {
+      height: 100%;
+      width: 1145px;
+      overflow: hidden;
+      margin-left: 85px;
+      display: inline-block;
+      overflow: hidden;
+      .monitorItem {
+        height: 557px;
+        width: 555px;
+        display: inline-block;
+        margin-right: 30px;
+        margin-bottom: 35px;
+        overflow: hidden;
+        &:nth-child(2n+1) {
+          margin-right: 0;
+        }
+        &:nth-child(6), &:nth-child(7) {
+          margin-bottom: 0;
+        }
+      }
+    
+    }
+  }
+  .commonCon {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    .taxiInfo {
+      width: 1157px;
+      height: 100%;
+      display: inline-block;
+      margin-right: 115px;
+      // overflow: hidden;
+      margin-left: 30px;
+      .taxiTop {
+        width: 100%;
+        height: 1170px;
+        // overflow: hidden;
+        margin-bottom: 50px;
+      }
+      .taxiBottomLeft, .taxiBottomRight {
+        width: 563px;
+        height: 557px;
+        display: inline-block;
+        overflow: hidden;
+        
+      }
+      .taxiBottomRight {
+        margin-left: 30px;
+      }
+    }
+    .freight {
+      width: 2405px;
+      height: 100%;
+      display: inline-block;
+      overflow: hidden;
+      overflow: hidden;
+      .freightTop {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 50px;
+        .freightTopLeft, .freightTopRight {
+          display: inline-block;
+          width: 1185px;
+          height: 600px;
+        }
+        .freightTopLeft {
+          margin-right: 30px;
+        }
+      }
+      .freightBottom {
+        width: 100%;
+        height: 1106px;
+        overflow: hidden;
+      }
+    }
+  }
+}

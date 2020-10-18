@@ -1,0 +1,17 @@
+.hrs-container{
+  position: relative;
+  height: 100%;
+  .hrs-chart{
+    position: relative;
+    height: calc(100% - 62px);
+  }
+}
+.title-name{
+  height: 62px;
+  padding-left: 50px;
+  span{
+    font-size: 36px;
+    color: #fff;
+    line-height: 62px;
+  }
+}

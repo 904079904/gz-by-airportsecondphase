@@ -1,0 +1,29 @@
+.LeaveOverstocked{
+    width: 100%;
+    height: 100%;
+    // padding-top: 60px;
+    .head{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .overviewChartCont{
+        width: 100%;
+        height: calc(100% - 62px);
+        position: relative;
+        // padding-left: 10px;
+        .overviewTxt{
+            position: absolute;
+            top: 8px;
+            left: 30px;
+            color: #fff;
+            font-size: 22px;
+            .speedTxt{
+                color: #F2BB12;
+                font-size: 22px;
+            }
+        }
+    }
+}

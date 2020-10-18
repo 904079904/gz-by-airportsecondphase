@@ -1,0 +1,31 @@
+/*
+* @Author: lvjn
+* @Date:   2018-03-26 15:45:15
+* @Last Modified by:   lvjn
+* @Last Modified time: 2018-04-03 15:29:00
+*/
+.warn-level-com {
+	height: 50px;
+	left: 245px;
+	line-height: 50px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 160px;
+	> span {
+		color: #fff;
+		font-size: 13px;
+		&.warn-level-span {
+			color: #00FE00;
+		}
+		&.warn-level-yellow {
+			color: #fbb03b;
+		}
+		&.warn-level-red {
+			color: #ed1c24;
+		}
+	}
+	> img {
+		margin: 0 10px;
+	}
+}

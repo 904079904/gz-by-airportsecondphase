@@ -1,0 +1,21 @@
+.ImplementationRate {
+    position: relative;
+    .ImplementationRateBarCom{
+        position: relative;
+    }
+    .global {
+        color: #ffffff;
+        font-size: 22px;
+        position: absolute;
+        top: -20px;
+        .number {
+            color: #FAB70E;
+            font-family: "lcd";
+            font-size: 48px;
+        }
+        i {
+            font-family: "lcd";
+            font-size: 32px;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.WeatherMap {
+  width: 100%;
+  height: 100%;
+  background-image: url(~img/weatherMapBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .MapWeatherChart {
+    width: 1540px;
+    height: 1118px;
+    background: url("~img/MapWeatherChart.png");
+    background-size: cover;
+    position: absolute;
+    top: 55px;
+    left: 385px;
+    #MapWeatherChart {
+      width: 100%;
+      height: 100%;
+      transform: rotateX(-20deg) rotateY(0deg) rotateZ(1deg);
+    }
+  }
+  .MapWeatherChartBg {
+    width: 1540px;
+    height: 1118px;
+    background: url("~img/MapWeatherChartBg.png");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    left: 360px;
+    animation: fadeInOut 6s infinite;
+  }
+  .weatherMapTit {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    height: 62px;
+    width: 300px;
+  }
+  .legendCon {
+    width: 260px;
+    height: 160px;
+    position: absolute;
+    left: 80px;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .legendItem {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      color: #fff;
+      font-size: 24px;
+      align-items: center;
+      .legendImg {
+        width: 120px;
+        text-align: center;
+        img{
+          transform: scaleX(1.5) scaleY(1.5);
+        }
+      }
+    }
+  }
+  .isLand {
+    position: absolute;
+    right: 470px;
+    bottom: 78px;
+    width: 102px;
+    height: 126px;
+  }
+  .mapContainer {
+    width: 100%;
+    height: 100%;
+  }
+  .weatherModalCom {
+    width: 374px;
+    height: 404px;
+    position: absolute;
+    top: 470px;
+    right: 355px;
+    display: none;
+  }
+  .weatherModalCom.active {
+    display: block;
+  }
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}

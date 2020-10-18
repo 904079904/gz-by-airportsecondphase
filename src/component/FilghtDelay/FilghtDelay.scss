@@ -1,0 +1,68 @@
+.FilghtDelay {
+  width: 100%;
+  height: 100%;
+  .chartWrapper {
+    display: flex;
+    margin-top: 26px;
+    .cicleWrapper {
+      width: 201px;
+      height: 212px;
+      background: url(~img/delay-cicle3.png);
+      background-size: 100% 100%;
+      position: relative;
+      margin: 0 82px 0 34px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .cicle, .light {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .light {
+        animation: 1s flicker infinite alternate;
+      }
+      .rotateCicle {
+        animation: rotate 2s infinite linear;
+        transform-origin: center;
+      }
+      .stop {
+        animation-play-state: paused;
+        opacity: 1;
+      }
+    }
+    .legendList {
+      .legendItem {
+        margin-bottom: 24px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .icon {
+          display: inline-block;
+          height: 16px;
+          width: 18px;
+          border-radius: 5px;
+          margin-right: 15px;
+        }
+        .text {
+          color: #c1c1c1;
+          font-family: lcd;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+@keyframes rotate {
+  to{
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes flicker {
+  to {
+    opacity: .4;
+  }
+}

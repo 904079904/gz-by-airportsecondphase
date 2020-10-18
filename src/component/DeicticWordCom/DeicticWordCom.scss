@@ -1,0 +1,56 @@
+/*
+* @Author: lvjn
+* @Date:   2018-03-26 15:55:51
+* @Last Modified by:   yunin
+* @Last Modified time: 2018-05-10 23:53:27
+*/
+// @font-face {
+// 	font-family: 'STXinwei';
+// 	src: url("./hwxw.ttf");
+// }
+.deictic-word-com {
+	height: 50px;
+	left: 430px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 1055px;
+	>ul {
+		/*transition:all 5000ms linear;
+		animation: "headerbar" 25s linear infinite;
+		-webkit-animation: "headerbar" 25s linear infinite;
+		animation-fill-mode: forwards;*/
+		overflow: hidden;
+		min-width: 2110px;
+		&.deicticWordUl {
+			transition:all 5000ms linear;
+			animation: "headerbar" 30s linear infinite;
+			-webkit-animation: "headerbar" 30s linear infinite;
+			animation-fill-mode: forwards;
+		}
+		> li {
+			color: #ef1d26;
+			font-family: 'SimSun';
+			font-size: 26px;
+			font-weight: 700;
+			float: left;
+			letter-spacing: 45px;
+			line-height: 50px;
+			text-align: center;
+			min-width: 1055px;
+			white-space: nowrap;
+		}
+		&:hover {
+			animation-play-state:paused;
+		}
+	}
+}
+
+@keyframes headerbar {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-50%);
+	}
+}

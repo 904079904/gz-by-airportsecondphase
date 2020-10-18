@@ -1,0 +1,146 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Administrator\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Java\jdk1.8.0_131\bi;.;C:\Program Files\Java\jdk1.8.0_131\jre\bi;.;C:\Python27;C:\Users\Administrator\AppData\Local\Android\sdk\platform-tools;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Program Files\Bandizip;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/core-js/download/core-js-2.6.10.tgz?cache=0&sync_timestamp=1572283858623&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-2.6.10.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141091:19)
+      at Object.onceWrapper (events.js:286:20)
+      at ClientRequest.emit (events.js:198:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+      at Object.onceWrapper (events.js:286:20)
+      at TLSSocket.emit (events.js:198:13)
+      at TLSSocket.Socket._onTimeout (net.js:442:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+    "name": "ourframework",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+      "animate.css": "^3.7.2",
+      "antd": "^3.18.2",
+      "antd-iconfont": "^3.0.3",
+      "antd-mobile": "^2.2.2",
+      "axios": "^0.18.0",
+      "d3": "^5.9.2",
+      "d3-selection-multi": "^1.0.1",
+      "echarts": "^4.2.0-rc.1",
+      "echarts-gl": "^1.1.1",
+      "lodash": "^4.17.11",
+      "mockjs": "^1.0.1-beta3",
+      "moment": "^2.24.0",
+      "react": "^16.4.1",
+      "react-countup": "^4.0.0",
+      "react-dom": "^16.4.1",
+      "react-redux": "^5.0.7",
+      "react-router": "^4.2.0",
+      "react-router-dom": "^4.2.2",
+      "redux": "^4.0.0",
+      "redux-saga": "^0.16.0",
+      "redux-thunk": "^2.3.0"
+    },
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^7.1.5",
+      "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+      "babel-plugin-transform-es3-property-literals": "^6.22.0",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-polyfill": "^6.26.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-es2015": "^6.24.1",
+      "babel-preset-es2015-ie": "^6.7.0",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "clean-webpack-plugin": "^2.0.2",
+      "colors": "^1.3.3",
+      "copy-webpack-plugin": "^4.5.2",
+      "css-loader": "^0.28.11",
+      "csv-loader": "^3.0.2",
+      "es3ify-loader": "^0.2.0",
+      "express": "^4.16.3",
+      "file-loader": "^3.0.1",
+      "happypack": "^5.0.1",
+      "html-webpack-inline-source-plugin": "^0.0.10",
+      "html-webpack-plugin": "^3.2.0",
+      "json-loader": "^0.5.7",
+      "mini-css-extract-plugin": "^0.4.1",
+      "node-sass": "^4.9.2",
+      "path": "^0.12.7",
+      "postcss-loader": "^2.1.6",
+      "prop-types": "^15.6.2",
+      "react-hot-loader": "^4.8.8",
+      "reset-css": "^4.0.1",
+      "sass-loader": "^7.0.3",
+      "style-loader": "^0.21.0",
+      "url-loader": "^1.0.1",
+      "webpack": "^4.32.2",
+      "webpack-bundle-analyzer": "^3.3.2",
+      "webpack-cli": "^3.1.1",
+      "webpack-dev-middleware": "^3.7.0",
+      "webpack-dev-server": "^3.4.1",
+      "webpack-hot-middleware": "^2.25.0",
+      "webpack-jarvis": "^0.3.2",
+      "webpack-merge": "^4.1.3",
+      "webpack-parallel-uglify-plugin": "^1.1.0"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "webpack-dev-server --progress --color --config ./build/webpack.dev.js",
+      "build": "webpack --progress  --color --config ./build/webpack.pro.js",
+      "server": "node ./build/server.js",
+      "dll": "webpack --progress --color --config ./build/webpack.dll.js",
+      "mock": "node ./build/create.mockList.js"
+    },
+    "babel": {
+      "plugins": [
+        "transform-es3-property-literals",
+        "transform-es3-member-expression-literals",
+        "react-hot-loader/babel",
+        "transform-runtime"
+      ],
+      "presets": [
+        "env",
+        "es2015",
+        "es2015-ie",
+        "stage-0",
+        "react"
+      ]
+    },
+    "postcss": {
+      "plugins": {
+        "cssnano": true,
+        "autoprefixer": {}
+      }
+    },
+    "author": "xiaohe",
+    "license": "ISC",
+    "description": "其实就是自己测试的脚手架，呵呵呵",
+    "directories": {
+      "doc": "doc"
+    },
+    "repository": {
+      "type": "git",
+      "url": "ssh://git@gitlab.cq.hiynn.com:10022/webdevelopment/ourframework.git"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

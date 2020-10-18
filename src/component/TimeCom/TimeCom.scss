@@ -1,0 +1,25 @@
+/*
+* @Author: lvjn
+* @Date:   2018-03-26 14:07:02
+* @Last Modified by:   lvjn
+* @Last Modified time: 2018-03-26 15:15:50
+*/
+.time-com {
+	// border: 1px solid blue;
+	height: 26px;
+	left: 0;
+	line-height: 26px;
+	padding-left: 5px;
+	position: absolute;
+	top: 0;
+	width: 220px;
+	>span {
+		color: #fff;
+		display: inline-block;
+		font-size: 13px;
+		height: 26px;
+		line-height: 26px;
+		margin-right: 14px;
+		vertical-align: middle;
+	}
+}
